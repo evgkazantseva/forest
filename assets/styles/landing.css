@@ -1,0 +1,290 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #D1A954;
+}
+
+a:active {
+    border: 1px solid #D1A95490;
+}
+
+a.footer-link:visited {
+    color: gray;
+}
+
+#aboutrestarauntimg,
+.logobig {
+    display: block;
+    margin: auto;
+}
+
+.abountrestaraunt-div {
+    flex-basis: 35%;
+    box-sizing: border-box;
+    padding-right: 5%;
+}
+
+.aboutrestaraunt-flex-container-inn {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    flex-basis: 35%;
+}
+
+.aboutrestaraunt-flex-container-inn-div {
+    flex-basis: 50%;
+}
+
+.aboutrestaraunt-flex-container-out {
+    display: flex;
+    justify-content: center;
+
+}
+
+.aboutrestaraunt-flex-container-inn,
+.aboutrestaraunt-flex-container-inn-div,
+.aboutrestaraunt-flex-container-out {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.contact-flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.contact-h2 {
+    text-align: left;
+}
+
+.contact-flex-container-inn {
+    display: flex;
+}
+
+.copyright {
+    font-size: 14px;
+    line-height: 135%;
+}
+
+.description-caption {
+
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.download {
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        linear-gradient(0deg, #C4C4C4, #C4C4C4);
+
+}
+
+.download-button,
+.download-h2 {
+    position: absolute;
+}
+
+.download-h2 {
+
+    left: 30%;
+    top: 25%;
+    height: 35px;
+    width: 524px;
+
+    color: white;
+
+}
+
+.download-button {
+    height: 64px;
+    width: 255px;
+    top: 60%;
+
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-align: center;
+    border: 0ch;
+
+    background: #FFFFFF;
+}
+
+#download-button-plan {
+
+    left: 27%;
+}
+
+#download-button-presentation {
+
+    left: 50%;
+}
+
+.download-section {
+    position: relative;
+}
+
+#extmenu {
+    width: 25px;
+    height: 15px;
+}
+
+
+.firstscreenimg {
+
+    width: calc(96vw/3);
+}
+
+.first-flex-container-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.first-flex-container-section-div {
+    position: relative;
+}
+
+.first-section-p {
+    text-align: center;
+}
+
+.footer-flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+form {
+    padding-top: 5%;
+    flex-basis: 45%;
+}
+
+.form {
+    margin: 7px;
+    width: 500px;
+    border: 0.5px solid #D0D0D0;
+}
+
+.form-input-text {
+    height: 40px;
+}
+
+
+.fsborder {
+    border: 1px solid #FFFFFF50;
+    box-sizing: border-box;
+}
+
+.fscolor {
+    position: absolute;
+    top: 360px;
+    box-sizing: border-box;
+    padding: 20px 15px 20px 15px;
+    color: #FFFFFF;
+    background-color: #D1A95490;
+}
+
+.gray {
+    background: #F9F7F7;
+}
+
+
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+}
+
+h4 {
+
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+header {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input:focus,
+textarea:focus {
+    background-color: beige;
+}
+
+
+.instaimg {
+    height: calc(100%/6.1);
+    width: calc(100%/6.1);
+}
+
+#logo {
+    margin-left: 80px;
+    height: 87px;
+    width: 160px;
+
+}
+
+.logobig {
+    height: 30px;
+    width: 46px;
+}
+
+.logocaption {
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.menu {
+    margin: 20px;
+}
+
+.menu-nav {
+    display: inline-block;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+#send {
+    height: 45px;
+    width: 182px;
+    color: #FFFFFF;
+    background: #D1A954;
+    border: 0ch;
+}
